@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+**/.DS_Store
+
+# Local credentials and generated benchmark evidence.
+.env
+reports/*.json
+reports/*.jsonl
+reports/*.log
+benchmarks/tmp/
+benchmarks/codex-custom-benchmark-*/
+
+# Installer snapshots are local recovery artifacts.
+*.bak_*
